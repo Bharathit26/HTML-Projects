@@ -1,0 +1,16 @@
+body{
+background:#9999ff;
+}
+
+h1, h4{
+background-color : #ffb366;
+border: 1px solid;
+color: #bfff80;
+text-align: center;
+}
+
+p{
+color:#ffffff;
+text-indent: 50px;
+border: 1px dashed;
+}

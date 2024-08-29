@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" context="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="style.css"/>
+<title> Our Books Comment Section</title>
+</head>
+
+<body bgcolor="#F1F1F1">
+<h1>Comment on Books Collection</h1>
+<form action="processComment.php"; method=POST>
+User Name: <input type="text" name="username">
+<br>
+<p> Rate the Book where 5 is Best </p>
+<input type="radio" name = "rating" value="1">1
+<input type="radio" name = "rating" value="2">2
+<input type="radio" name = "rating" value="3">3
+<input type="radio" name = "rating" value="4">4
+<input type="radio" name = "rating" value="5">5
+<br><br>
+Comment: <br>
+<textarea cols="40"; rows="25"; name="Comment"></textarea>
+<br>
+
+<input type="submit" value="Submit">
+<button type="reset" value="Reset"> Reset </button>
+</form>
+
+<form action="./Books bg.html" method="get">
+<input type="submit" value="Home" name="Home" id="home" />
+</form>
+</body>
+<html>
+
