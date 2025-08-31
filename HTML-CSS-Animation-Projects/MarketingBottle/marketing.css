@@ -1,0 +1,186 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+#container{
+    height: 100vh;
+    /* background-color: rgb(241, 129, 30); */
+    padding: 30px 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url(./bottle.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo.xefaglogo{
+    flex-direction: flex-start;
+    width: 100px;
+    height: 30px;
+    padding-left: 20px;
+}
+
+.logo{
+    font-size: 30px;
+    font-weight: bold;  
+}
+
+.links{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.btn{
+    padding: 10px 30px;
+    border-radius: 30px;
+    border: none;
+}
+
+.btn-p{
+    font-weight: bold;
+    background-color: white;
+    border-radius: 30px;
+    width: 150px;
+    height: 40px;
+}
+
+.btn-s{
+    background-color: saddlebrown;
+    color: white;
+    border-radius: 30px;
+    width: 150px;
+    height: 40px;
+}
+
+.icons{
+    display: flex;
+    gap: 20px;
+}
+
+.icons span{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+#user{
+    padding: 10px;
+    color: white;
+    background-color: saddlebrown;
+}
+
+#cart{
+    padding: 10px;
+    background-color: white;
+}
+
+.count{
+    position: absolute;
+    top: 65px;
+    right: 55px;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+#menu{
+  display: flex;
+  align-items: center;
+  padding: 40px 0px;
+  justify-content: space-between;
+}
+
+.back{
+    width: 50%;
+}
+
+.items{
+    width: 50%;
+    display: flex;
+    align-items:center;
+    gap: 20px;
+}
+
+.item{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.icon svg{
+  height: 20px;
+  width: 20px;
+}
+#content{
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+.head{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.head h1{
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 1.2;
+    width: 50%;
+}
+
+.head p{
+    font-size: 24px;
+}
+
+.score{
+    display: flex;
+    gap: 20px;flex-direction: column;
+    align-items: flex-end;
+}
+
+.values{
+    display: flex;
+    gap: 20px;
+    
+}
+
+.values span{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: gainsboro;
+}
+
+.values span:nth-child(1){
+    background-color: black;
+    color: white;
+}
+
+
+
+#footer{
+
+}

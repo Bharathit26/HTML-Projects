@@ -1,0 +1,127 @@
+/* Reset default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(135deg, #4e73df, #1cc88a);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+}
+
+/* Page Title */
+#title {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+/* Description */
+#description {
+  font-size: 1.1rem;
+  text-align: center;
+  margin-bottom: 25px;
+  max-width: 600px;
+}
+
+/* Form Container */
+#survey-form {
+  background-color: rgba(255, 255, 255, 0.95);
+  color: #333;
+  width: 100%;
+  max-width: 500px;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.3);
+  font-size: 1rem;
+}
+
+/* Fieldset Styling */
+fieldset {
+  border: none;
+  margin-bottom: 15px;
+}
+
+/* Labels and Inputs */
+#survey-form label {
+  display: block;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+#survey-form input[type="text"],
+#survey-form input[type="email"],
+#survey-form input[type="number"],
+#survey-form select,
+#survey-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+#survey-form input:focus,
+#survey-form select:focus,
+#survey-form textarea:focus {
+  border-color: #4e73df;
+  outline: none;
+  box-shadow: 0 0 8px rgba(78, 115, 223, 0.5);
+}
+
+/* Paragraph inside form */
+#survey-form p {
+  margin: 15px 0 8px;
+  font-weight: bold;
+}
+
+/* Radio & Checkbox */
+#survey-form input[type="radio"],
+#survey-form input[type="checkbox"] {
+  margin-right: 8px;
+}
+
+/* Submit Button */
+#submit {
+  width: 100%;
+  padding: 12px;
+  background: #1cc88a;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+#submit:hover {
+  background: #17a673;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  body {
+    padding: 15px;
+  }
+
+  #title {
+    font-size: 2rem;
+  }
+
+  #description {
+    font-size: 1rem;
+  }
+
+  #survey-form {
+    padding: 20px;
+  }
+}

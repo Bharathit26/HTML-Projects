@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Survey Form</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="surveyform.css">
+  </head>
+  <body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">We appreciate you participation. Please take a survey and leave a remark below to help with future improvements.</p>
+    <form id="survey-form">
+      <!--label for name, email, number-->
+        <label id="name-label" for="name"> Name: <input type="text" id="name" required placeholder="Enter your Name"/></label>
+        <label id="email-label" for="email">Email: <input type="email" id="email" required placeholder="Enter your email"/></label>
+        <label id="number-label" for="number"> Number: <input id="number" type="number" min="18" max="100" placeholder="Enter your number"></label>
+
+      <!--dropdown-->
+      <label id="dropdown">Which option best describes your role?</label>
+      <select id="dropdown" name="role" required>
+        <option id="">select an option</option>
+        <option>Backend Operator</option>
+        <option>Customer Requirement</option>
+        <option>operation specialist</option>
+      </select>
+
+      <!--Radio buttons-->
+      <p>where did you hear about us?<p>
+      <label><input type="radio" id="media" name="about"> Social Media</label>
+      <label><input type="radio" id="media" name="about"> Poster</label>
+      <label><input type="radio" id="media" name="about"> Advertisement</label>
+
+      <!--checkboxes-->
+      <p>Would you like to recommend us to your friends and neighbours! </p>
+      <label><input type="checkbox" id="recomend" value="checkbox"/>Definitely</label>
+      <label><input type="checkbox" id="recomend" value="checkbox"/>Maybe</label>
+      <label><input type="checkbox" id="recomend" value="checkbox"/>Not Sure</label>
+
+      <!-- textarea-->
+    <p> If any suggestions! Feel free to share your thoughts..</p>
+    <textarea name="textarea" rows="4" cols="30" placeholder="Share your queries"></textarea>
+
+    <!--Submit button-->
+    <button type="submit" id="submit">submit</button>
+    </form>
+  </body>
+
+</html>
